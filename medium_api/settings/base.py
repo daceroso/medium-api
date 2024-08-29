@@ -166,6 +166,9 @@ MEDIA_ROOT = str(ROOT_DIR / "mediafilkes")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+
+
 
 CORS_URLS_REGEX = r"^api/.*$"
 
